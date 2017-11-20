@@ -1,0 +1,15 @@
+<div class="container" style="text-align: center">
+ <div class="row">
+  <div class="col-md-6 col-md-offset-3
+              col-sm-8 col-sm-offset-2
+              col-xs-10 col-xs-offset-1">
+   <h1>New Artist</h1>
+   </div>
+</div>
+</div>
+
+<%= render 'form', artist: @artist %>
+
+<div class="container" style="text-align: center">
+<%= link_to 'Back', artists_path, class: 'btn btn-info' %>
+</div>
